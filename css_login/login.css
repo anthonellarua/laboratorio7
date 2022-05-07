@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Questrial';
+    src: url('../font/Questrial-Regular.ttf');
+    font-style: normal;
+    font-weight: lighter;
+}
+*{
+    font-family: 'Questrial';
+}
+*:focus{ 
+    border-color: #CE9977;
+    background-color: black;
+}
+
+.mt-5{
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.boton{
+    color:white;
+    background-color: #CE9977;
+    border-radius: 1em;
+    width: 1%;
+}
